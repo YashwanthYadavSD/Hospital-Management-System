@@ -1,0 +1,36 @@
+# Hospital Management System
+
+This project is created using MySQL.
+
+## 📂 Database Name
+hospital_management
+
+## 📊 Tables
+1. Patient
+   - patient_id (Primary Key)
+   - name
+   - age
+   - gender
+   - phone
+
+2. Doctor
+   - doctor_id (Primary Key)
+   - name
+   - specialization
+   - phone
+
+3. Appointment
+   - appointment_id (Primary Key)
+   - patient_id (Foreign Key)
+   - doctor_id (Foreign Key)
+   - date
+   - time
+   - status
+   - reason
+
+## 🔗 Relationships
+- One Patient can have many Appointments
+- One Doctor can have many Appointments
+
+## 💡 Description
+This system manages hospital data including patients, doctors, and appointments.
